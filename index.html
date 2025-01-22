@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alamin Crèche</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Alamin Crèche</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-section text-white text-center d-flex align-items-center">
+    <div class="container">
+      <h1>Bienvenue à Alamin Crèche</h1>
+      <p>Un endroit sûr et amusant pour vos enfants</p>
+      <a href="#contact" class="btn btn-primary">Inscrivez-vous</a>
+      <a href="#services" class="btn btn-outline-light">Nos Services</a>
+    </div>
+  </header>
+
+  <!-- Services Section -->
+  <section id="services" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Nos Services</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/service1.jpg" class="card-img-top" alt="Service 1">
+            <div class="card-body">
+              <h5 class="card-title">Éducation</h5>
+              <p class="card-text">Des activités éducatives adaptées à chaque âge.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/service2.jpg" class="card-img-top" alt="Service 2">
+            <div class="card-body">
+              <h5 class="card-title">Divertissement</h5>
+              <p class="card-text">Des jeux et loisirs pour développer la créativité.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/service3.jpg" class="card-img-top" alt="Service 3">
+            <div class="card-body">
+              <h5 class="card-title">Garderie</h5>
+              <p class="card-text">Un environnement sûr et surveillé pour vos enfants.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Galerie</h2>
+      <div class="row g-3">
+        <div class="col-md-4"><img src="images/img1.jpg" class="img-fluid rounded" alt="Gallery image 1"></div>
+        <div class="col-md-4"><img src="images/img2.jpg" class="img-fluid rounded" alt="Gallery image 2"></div>
+        <div class="col-md-4"><img src="images/img3.jpg" class="img-fluid rounded" alt="Gallery image 3"></div>
+        <div class="col-md-4"><img src="images/img4.jpg" class="img-fluid rounded" alt="Gallery image 4"></div>
+        <div class="col-md-4"><img src="images/img5.jpg" class="img-fluid rounded" alt="Gallery image 5"></div>
+        <div class="col-md-4"><img src="images/img6.jpg" class="img-fluid rounded" alt="Gallery image 6"></div>
+        <div class="col-md-4"><img src="images/img7.jpg" class="img-fluid rounded" alt="Gallery image 7"></div>
+        <div class="col-md-4"><img src="images/img8.jpg" class="img-fluid rounded" alt="Gallery image 7"></div>
+        <div class="col-md-4"><img src="images/img9.jpg" class="img-fluid rounded" alt="Gallery image 7"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contactez-nous</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Nom</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Envoyer</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-3 bg-dark text-white">
+    <p>© 2025 Alamin Crèche. Tous droits réservés.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
