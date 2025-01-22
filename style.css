@@ -42,3 +42,6 @@
 #services .card:hover {
   transform: translateY(-10px);
 }
+
+.navbar {background: #bbce29 !important;color: white !important;}
+h2{color: #bbce29 !important;}
